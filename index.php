@@ -4,7 +4,7 @@
 $ch = curl_init();
 
 //cURL Define Options
-curl_setopt($ch, CURLOPT_URL, 'https://www.php.net');
+curl_setopt($ch, CURLOPT_URL, 'https://github.com/HuseyinUnalan');
 
 //Connecting to Sites with SSL
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
